@@ -1,6 +1,8 @@
 ![](./fig/overview.jpg)
 
-
+## This is the modified version of original traffic manipulator.
+GAN architecture is implemented based on the description of supplmentary material.
+Different distance function is implemented to test the influence of distance measure on the quality of the adversarial examples.
 
 ## What is Traffic Manipulator?
 
