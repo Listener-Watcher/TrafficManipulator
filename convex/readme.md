@@ -7,10 +7,14 @@ sklearn \\
 
 ## 0. copy some file to the directory
 please copy test.npy and benign_train.npy file from example to this directory for loading data
-
+   ```
+   cd AfterImageExtractor/
+   python setup.py build_ext --inplace
+   ```
 ## 1.training one SVM
+'''
 python model.py -M train -mf model.pkl
-
+'''
 ## 2.generate adversarial examples use convex optimization
 python model.py -M gen -mf model.pkl
 
