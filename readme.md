@@ -1,8 +1,7 @@
-![](./fig/overview.jpg)
-
-## This is the modified version of original traffic manipulator.
+## must read!! This is the modified version of original traffic manipulator.
 GAN architecture is implemented based on the description of supplmentary material.
 Different distance function is implemented to test the influence of distance measure on the quality of the adversarial examples.
+convex optimization version is implemented along with SVM model in the convex directory, please read the Readme under convex directory for more information.
 
 ## What is Traffic Manipulator?
 
