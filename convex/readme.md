@@ -5,6 +5,9 @@ cvxpy \\
 matplotlib \\
 sklearn \\
 
+## 0. copy some file to the directory
+please copy test.npy and benign_train.npy file from example to this directory for loading data
+
 ## 1.training one SVM
 python model.py -M train -mf model.pkl
 
