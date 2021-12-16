@@ -23,4 +23,4 @@ python main.py -m example/test.pcap -b generated_adversarial_set_path -n example
 execute PSO algorithm
 
 ## evaluate the mutated traffic
-python eval.py -op example/test.pcap -or convex/rmse.pkl -of example/test.npy -b generated_adversarial_set_path -n example/normalizer.pkl
+python eval_svm.py -op example/test.pcap -or convex/rmse.pkl -of example/test.npy -b generated_adversarial_set_path -n example/normalizer.pkl
